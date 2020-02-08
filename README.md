@@ -29,7 +29,7 @@ doctors = Doctor.all
 first_six_drs = doctors[0..5]
 ```
 
-You will get you six doctors by using _RUBY_ to "section off" six doctors using
+This will get you six doctors by using _RUBY_ to "section off" six doctors using
 Ruby's range method (`[]`). But under the covers we asked the database for
 **all** the doctors and then took six of them. Wouldn't it make more sense to
 ask the database to get us ***only*** six `Doctor`s in the first place? That's
